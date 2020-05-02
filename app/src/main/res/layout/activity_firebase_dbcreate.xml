@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseDBCreate"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Tambah Data"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1CA5E3"/>
+    <EditText
+        android:id="@+id/et_kodebarang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Kode Barang"
+        android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#F4BB0D"/>
+
+    <EditText
+        android:id="@+id/et_namabarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Barang"
+        android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#F4BB0D"/>
+
+    <EditText
+        android:id="@+id/et_satuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Satuan"
+        android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#F4BB0D"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/et_hargabeli"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Harga Beli"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext"
+            android:padding="10dp"
+            android:textColor="#F4BB0D"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/et_hargajual"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Harga Jual"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#F4BB0D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/et_stok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Stok"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#F4BB0D"/>
+        <EditText
+            android:id="@+id/et_stokmin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Stok Minimal"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#F4BB0D"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#1CA5E3"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"/>
+
+</LinearLayout>

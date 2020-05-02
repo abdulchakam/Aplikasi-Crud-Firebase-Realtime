@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/firebase"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/bt_createdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:background="#1CA5E3"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/bt_viewdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data"
+        android:background="#F4BB0D"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+</LinearLayout>
